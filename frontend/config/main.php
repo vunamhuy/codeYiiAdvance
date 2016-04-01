@@ -6,6 +6,9 @@ $params = array_merge(
     require(__DIR__ . '/params-local.php')
 );
 
+echo 1;exit;
+echo 2222;//
+echo 333333;
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
